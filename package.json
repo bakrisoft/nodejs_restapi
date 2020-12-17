@@ -1,0 +1,29 @@
+{
+  "name": "restapi",
+  "version": "1.0.0",
+  "description": "Rest API",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bakriabbas/nodeapi.git"
+  },
+  "keywords": [
+    "nodejs",
+    "api"
+  ],
+  "author": "Bakriabbas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bakriabbas/nodeapi/issues"
+  },
+  "homepage": "https://github.com/bakriabbas/nodeapi#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  }
+}
