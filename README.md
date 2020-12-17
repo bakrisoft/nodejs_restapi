@@ -21,37 +21,37 @@ and add your customization
   
 <strong>
 This API contains 5 endpoints<br/>
-- Get all users
-Method: Get
-URL: http://localhost:3500/users
+- Get all users<br/>
+Method: Get<br/>
+URL: http://localhost:3500/users<br/>
 
-- Get user by id
-Method: Get
-URL: http://localhost:3500/users/1
+- Get user by id<br/>
+Method: Get<br/>
+URL: http://localhost:3500/users/1<br/>
 
-- Create user
-Method: Post
-URL: http://localhost:3500/users
-Body(JSON):
+- Create user<br/>
+Method: Post<br/>
+URL: http://localhost:3500/users<br/>
+Body(JSON):<br/>
 {
     "userName": "user1",
     "userPass": "123",
     "isActive": 1
 }
 
-- Update user
-Method: Put
-URL: http://localhost:3500/users/1
-Body(JSON):
+- Update user<br/>
+Method: Put<br/>
+URL: http://localhost:3500/users/1<br/>
+Body(JSON):<br/>
 {
     "userName": "user1",
     "userPass": "123",
     "isActive": 1
 }
 
-- Delete user
-Method: Delete
-URL: http://localhost:3500/users/1
+- Delete user<br/>
+Method: Delete<br/>
+URL: http://localhost:3500/users/1<br/>
 
 Or simply you can import Postman collection from file 'SampleRestAPI.postman_collection.json'
 <strong>
