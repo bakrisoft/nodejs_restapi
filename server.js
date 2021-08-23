@@ -1,9 +1,8 @@
 const app = require('express')()
 const server = require('http').createServer(app)
-const bodyParser = require('body-parser');
-const router = require('./routers');
+const router = require('./routers')
 
-app.use(bodyParser.json());
+app.use(express.json());
 app.use('/',router);
 
 const port = 3500;
